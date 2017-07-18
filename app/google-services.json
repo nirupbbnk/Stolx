@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55554678733",
+    "firebase_url": "https://stolx-23271.firebaseio.com",
+    "project_id": "stolx-23271",
+    "storage_bucket": "stolx-23271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55554678733:android:d131fbf24be8782e",
+        "android_client_info": {
+          "package_name": "com.example.pathrer.stolx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55554678733-6lu355nalde8e7l9deom4715revsnk7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pathrer.stolx",
+            "certificate_hash": "30c1eee4257e235bc6aab253b780603e3f4ae197"
+          }
+        },
+        {
+          "client_id": "55554678733-oj8g2s3n2p3b7ok6lddeurko5dkia2fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS9IF0s3obROLvLQsAoeGR0vM7w5Bth08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55554678733-oj8g2s3n2p3b7ok6lddeurko5dkia2fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
