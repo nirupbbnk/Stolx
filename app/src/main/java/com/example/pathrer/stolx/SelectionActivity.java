@@ -31,14 +31,63 @@ public class SelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                /*Bundle bundle = new Bundle();
-                bundle.putString("edttext", "Book");
-                SellFragment fragobj = new SellFragment();
-                fragobj.setArguments(bundle);
-*/
-
+                Bundle bundle = new Bundle();
+                bundle.putString("table", "Book");
+                bundle.putString("imgtable","BookImages");
 
                 SellFragment sellFragment = new SellFragment();
+                sellFragment.setArguments(bundle);
+                FragmentTransaction fragmentTransaction1= getSupportFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(R.id.frame,sellFragment,"fragment");
+                fragmentTransaction1.commit();
+
+            }
+        });
+
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("table", "Xerox");
+                bundle.putString("imgtable","XeroxImages");
+
+                SellFragment sellFragment = new SellFragment();
+                sellFragment.setArguments(bundle);
+                FragmentTransaction fragmentTransaction1= getSupportFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(R.id.frame,sellFragment,"fragment");
+                fragmentTransaction1.commit();
+
+            }
+        });
+
+        fab3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("table", "Instruments");
+                bundle.putString("imgtable","InstrumentImages");
+
+                SellFragment sellFragment = new SellFragment();
+                sellFragment.setArguments(bundle);
+                FragmentTransaction fragmentTransaction1= getSupportFragmentManager().beginTransaction();
+                fragmentTransaction1.replace(R.id.frame,sellFragment,"fragment");
+                fragmentTransaction1.commit();
+
+            }
+        });
+
+        fab4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Bundle bundle = new Bundle();
+                bundle.putString("table", "Others");
+                bundle.putString("imgtable","OtherImages");
+
+                SellFragment sellFragment = new SellFragment();
+                sellFragment.setArguments(bundle);
                 FragmentTransaction fragmentTransaction1= getSupportFragmentManager().beginTransaction();
                 fragmentTransaction1.replace(R.id.frame,sellFragment,"fragment");
                 fragmentTransaction1.commit();
